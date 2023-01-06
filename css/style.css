@@ -1,0 +1,193 @@
+.display-none{
+    display: none !important;
+}
+
+.contenedor{
+    background: url("/images/pasillo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.contenedor-items div {
+    background-color: #d52a1d;
+    color: white;
+}
+
+header{
+    background-color: #d52a1d;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+}
+
+header a:link, header a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover, header a:active{
+    color: #eee;
+}
+
+#home{
+    color: white;
+}
+
+.seccion{
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.popup{
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+    background: #d52a1d;
+}
+
+.popup-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.save{
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.popup-header button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0 6px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+
+.fab{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 25%;
+    background-color: #d52a1d;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 4px 0;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: white;
+}
+
+.form form input, .form form select, .form form textarea{
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.form button{
+    background-color: white;
+    border: none;
+    border-radius: 25%;
+}
+
+.contenedor-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.item img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.item h3{
+    flex: 1;
+    text-align: left;
+}
+
+.item button{
+    border-radius: 8px;
+    background-color: white;
+    color: #555;
+    font-size: 13px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.incompleto{
+    color: white;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    background: #d52a1d;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor-detalle{
+    background: #d52a1d;
+}
+
+#listi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    border-radius: 8px;
+    background-color: white;
+    color: #555;
+    font-size: 13px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.seeList {
+  background-color: white;
+  border: none;
+  border-radius: 25%;
+  margin-left: 145px;
+  margin-top: -40px;
+  padding: 8px;
+}
